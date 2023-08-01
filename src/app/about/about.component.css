@@ -1,0 +1,263 @@
+/*Estilos del contenedor PRINCIPAL*/
+.caja_about {
+    text-align: center;
+    height: auto;
+    animation: aparece 1500ms;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*Estilos del titulo "Sobre mi"*/
+.caja_about h2 {
+    color: var(--color-primario);
+
+
+}
+
+/*Estilos del contenedor de la imagen principal*/
+.caja_img {
+    padding-top: 60px;
+}
+
+/*Estilos de la imagen principal*/
+.img {
+    width: 300px;
+    height: auto;
+
+}
+
+/*Estilos del contenedor de imagen principal y texto de presentaciòn*/
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*Estilos del contenedor del texto de presentaciòn*/
+.texto {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+/*Estilos del texto de presentaciòn*/
+.texto p {
+    width: 500px;
+    padding-top: 70px;
+}
+
+
+/*ANIMACION INICIAL DE TODO COMPONENTE*/
+@keyframes aparece {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/* Estilos del contenedor general de habilidades */
+
+.tecnologias {
+    margin: 100px 0px 100px 0px;
+}
+
+/* Estilos del titulo "habilidades" */
+.tecnologias h3 {
+    color: var(--color-primario);
+
+}
+
+/* Estilos del contenedor de los div de skill */
+.tecnologias .contenedor_skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-top: 60px;
+    width: 80%;
+}
+
+
+/* Estilos de los iconos */
+.contenedor_skills .img_icono {
+    transition: all 400ms;
+
+}
+
+/* HOVER de cada tecnologia */
+.contenedor_skills .img_icono:hover,
+.contenedor_skills .img_icono:active {
+    transform: scale(1.2);
+}
+
+
+/*Estilos contenedor individual de iconos*/
+
+.skills {
+    width: 70px;
+    height: 100px;
+}
+
+
+.skills .img_icono {
+    width: 50px;
+}
+
+
+.skills p {
+    padding-top: 10px;
+}
+
+
+/*Detalle de iconos, mostrar y ocultar*/
+
+.mostrar {
+    display: block;
+    color: var(--color-secundario);
+    font-family: letraIconos;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.ocultar {
+    display: none;
+}
+
+
+
+/* Estilos de contenedor estudios */
+
+.estudios h3 {
+    text-align: center;
+    height: auto;
+    animation: aparece 1500ms;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--color-primario);
+
+}
+
+/*Estilos para colorear los textos Ej: Instituto:*/
+.estudios .estudio span {
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+
+}
+
+/*Estilos del componente individual estudio*/
+.estudios .estudio {
+    margin: 0px auto;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 1px;
+    background-color: var(--color-primario);
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+/*Estilos de la imagen del gorro de graduado y el titulo*/
+.estudios .imagen_estudio {
+    padding: 20px;
+
+
+}
+
+/*Estilos del boton para descargar Curriculum Vitae*/
+.descarga_cv {
+    background-color: var(--color-primario);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+
+
+}
+
+/* MEDIA QUERYS */
+
+/*hasta 850px*/
+@media (max-width:850px) {
+    .texto {
+        padding: 20px;
+    }
+
+    .caja_img {
+        padding-left: 20px;
+    }
+
+}
+
+/*hasta 765px*/
+@media (max-width:765px) {
+    .estudios .estudio {
+        width: 80%;
+        padding: 20px;
+
+    }
+}
+
+/*hasta 550px*/
+@media (max-width:550px) {
+    .texto p {
+        width: auto;
+        margin: 20px;
+    }
+
+    .descarga_cv {
+        margin-left: 20px;
+    }
+
+}
+
+/*hasta 449px*/
+@media(max-width:449px) {
+    .texto p {
+        width: auto;
+        margin: 20px;
+    }
+
+    .img {
+        width: 200px;
+    }
+
+    .skills {
+        width: 250px;
+        height: 100px;
+    }
+
+    .skills .img_icono {
+        width: 60px;
+        margin-bottom: 20px;
+    }
+
+    .tecnologias {
+        margin: 50px 0px 50px 0px;
+    }
+
+    .tecnologias .contenedor_skills {
+        margin-top: 0px;
+
+    }
+
+    .tecnologias h3 {
+        margin-bottom: 40px;
+    }
+
+    .skills p {
+        display: none;
+    }
+
+}

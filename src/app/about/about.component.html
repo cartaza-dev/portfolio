@@ -1,0 +1,182 @@
+<!--Componente principal "Sobre mi", informacion personal, habilidades y estudios -->
+<div class="caja_about">
+
+    <h2>
+        Sobre mi
+    </h2>
+
+    <!--Contenedor de foto-->
+    <div class="contenedor">
+        <div class="caja_img">
+            <img class="img" src="../../assets/foto_perfil.png" alt="">
+        </div>
+        <!--Contenedor de texto de presentacion-->
+        <div class="texto">
+            <p>¡Hola! Mi nombre es Carla.<br> Soy técnica en desarrollo web y aplicaciones digitales. <br>
+                Amo lo que hago. Me apasiona escribir código y lograr construir soluciones increíbles. Me considero una
+                persona creativa, que desea constantemente superarse a sí misma. Poseo habilidades tanto para
+                desarrollar aplicaciones web como también aplicaciones móviles Android. <br>
+                Me encuentro en búsqueda de nuevos desafíos, en los que pueda aportar mi experiencia, continuar
+                aprendiendo y seguir creciendo como profesional.
+
+
+                <br>
+            </p>
+
+            <!--Enlace de descarga de Curriculum Vitae -->
+            <a class="descarga_cv btn" href="../../assets/cv_carla_artaza.pdf" download="curriculum-vitae.pdf">Descargar
+                CV</a>
+        </div>
+
+    </div>
+
+    <!--Contenedor  principal de habilidades (iconos de tecnologias)-->
+    <div class="tecnologias">
+        <h3>Habilidades</h3>
+
+        <!--Contenedor con flex para divivir los skills  1/2-->
+        <div class="contenedor_skills">
+
+            <!--Contenedor de icono, 
+        al posicionarse por encima del icono, muestra el texto, 
+        en dispositivos moviles queda descartado-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarHtml = true" (mouseleave)="this.mostrarHtml = false"
+                    src="../../assets/Icono_html.png" alt="Icono html">
+                <p [ngClass]="{ 'mostrar' : this.mostrarHtml == true, 'ocultar' : this.mostrarHtml == false}">
+                    {{this.html}} </p>
+            </div>
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarCss = true" (mouseleave)="this.mostrarCss = false"
+                    src="../../assets/Icono_css.png" alt="Icono css">
+                <p [ngClass]="{ 'mostrar' : this.mostrarCss == true, 'ocultar' : this.mostrarCss == false}">
+                    {{this.css}} </p>
+            </div>
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarJS = true" (mouseleave)="this.mostrarJS = false"
+                    src="../../assets/Icono_js.png" alt="Icono javascript">
+                <p [ngClass]="{ 'mostrar' : this.mostrarJS == true, 'ocultar' : this.mostrarJS == false}"> {{this.js}}
+                </p>
+            </div>
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarBootstrap = true"
+                    (mouseleave)="this.mostrarBootstrap = false" src="../../assets/Icono_bootstrap.png"
+                    alt="Icono bootstrap">
+                <p [ngClass]="{ 'mostrar' : this.mostrarBootstrap == true, 'ocultar' : this.mostrarBootstrap == false}">
+                    {{this.bs}} </p>
+            </div>
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarAngular = true"
+                    (mouseleave)="this.mostrarAngular = false" src="../../assets/Icono_angular.png" alt="Icono angular">
+                <p [ngClass]="{ 'mostrar' : this.mostrarAngular == true, 'ocultar' : this.mostrarAngular == false}">
+                    {{this.angular}} </p>
+            </div>
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarJquery = true" (mouseleave)="this.mostrarJquery = false"
+                    src="../../assets/icono_jquery.png" alt="Icono jquery">
+                <p [ngClass]="{ 'mostrar' : this.mostrarJquery == true, 'ocultar' : this.mostrarJquery == false}">
+                    {{this.jquery}} </p>
+            </div>
+
+
+        </div>
+
+
+        <!--Contenedor con flex para divivir los skills  2/2-->
+        <div class="contenedor_skills">
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarJava = true" (mouseleave)="this.mostrarJava = false"
+                    src="../../assets/Icono_java.png" alt="Icono java">
+                <p [ngClass]="{ 'mostrar' : this.mostrarJava == true, 'ocultar' : this.mostrarJava == false}">
+                    {{this.java}} </p>
+            </div>
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarSpringBoot = true"
+                    (mouseleave)="this.mostrarSpringBoot = false" src="../../assets/icono_springboot.png"
+                    alt="Icono Spring Boot">
+                <p
+                    [ngClass]="{ 'mostrar' : this.mostrarSpringBoot == true, 'ocultar' : this.mostrarSpringBoot == false}">
+                    {{this.springboot}} </p>
+            </div>
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarAndroid = true"
+                    (mouseleave)="this.mostrarAndroid = false" src="../../assets/icono_android_studio.png"
+                    alt="Icono Android">
+                <p [ngClass]="{ 'mostrar' : this.mostrarAndroid == true, 'ocultar' : this.mostrarAndroid == false}">
+                    {{this.android}} </p>
+            </div>
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarMysql = true" (mouseleave)="this.mostrarMysql = false"
+                    src="../../assets/Icono_mysql.png" alt="Icono mysql">
+                <p [ngClass]="{ 'mostrar' : this.mostrarMysql == true, 'ocultar' : this.mostrarMysql == false}">
+                    {{this.mysql}} </p>
+            </div>
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarGit = true" (mouseleave)="this.mostrarGit = false"
+                    src="../../assets/Icono_git.png" alt="Icono git">
+                <p [ngClass]="{ 'mostrar' : this.mostrarGit == true, 'ocultar' : this.mostrarGit == false}">
+                    {{this.git}} </p>
+            </div>
+
+            <!--Contenedor de icono-->
+            <div class="skills">
+                <img class="img_icono" (mouseover)="this.mostrarTS = true" (mouseleave)="this.mostrarTS = false"
+                    src="../../assets/icono_typescript.png" alt="Icono typescript">
+                <p [ngClass]="{ 'mostrar' : this.mostrarTS == true, 'ocultar' : this.mostrarTS == false}"> {{this.ts}}
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--Contenedor de estudios-->
+    <div class="estudios">
+
+        <h3>Estudios</h3>
+
+        <!--Contenedor de imagen de gorro graduado y titulo-->
+        <div class="imagen_estudio">
+            <img src="../../assets/graduado.png" alt="icono_graduado">
+        </div>
+
+        <!--Contenedor de informacion de estudio-->
+        <div class="estudio">
+
+
+            <p><span>Establecimiento:</span></p>
+            <p>Instituto superior Politécnico de Córdoba</p>
+            <p><span>Fecha de inicio y fin:</span>
+            <p> 04/2021 - 07/2023</p>
+            <p><span>Titulo: </span></p>
+            <p>Técnico superior en desarrollo web y aplicaciones digitales</p>
+            <p><span>Estado: </span></p>
+            <p>FINALIZADO <img src="../../assets/comprobado.png" alt="icono_tilde" width="24px"> Titulo en tràmite</p>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+</div>
