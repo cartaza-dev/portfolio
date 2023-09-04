@@ -19,6 +19,10 @@ export class AboutComponent implements OnInit {
   mostrarGit:boolean = false;
   mostrarJquery:boolean = false;
   mostrarMysql:boolean = false;
+  mostrarJpa:boolean = false;
+  mostrarJwt:boolean = false;
+  mostrarMaven:boolean = false;
+  mostrarHibernate:boolean = false;
   ocultar:boolean = true;
   html:string = "Html";
   css:string = "Css";
@@ -30,8 +34,13 @@ export class AboutComponent implements OnInit {
   git:string = "Git";
   jquery:string = "jQuery";
   ts:string = "TypeScript";
-  springboot:string = "Spring Boot"
-  android:string = "Android Studio"
+  springboot:string = "Spring Boot";
+  android:string = "Android Studio";
+  hibernate:string = "Hibernate";
+  jpa:string = "JPA";
+  jwt:string = "JWT"
+  maven:string = "Maven"
+
 
 
   constructor() { }
