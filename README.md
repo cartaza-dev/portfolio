@@ -1,6 +1,8 @@
 # Proyecto “Portafolio web”.
 
-Desarrollado por **Carla Artaza**. ![Link al sitio web](https://cartaza-dev.github.io/portfolio/)
+Desarrollado por **Carla Artaza**. 
+
+[Ingresar al sitio web publicado ](https://cartaza-dev.github.io/portfolio/)
 
 *¿Que es?* Es un ***sitio web SPA*** que funciona como portafolio personal.
 
@@ -16,7 +18,12 @@ También poder mostrar un desarrollo puro y exclusivo de mi persona y de mi trab
 
 *¿Cuales eran los objetivos del desarrollo?*
 
-El objetivo era poder desarrollarlo con **Angular**, mi framework favorito, y poder reforzar mi experiencia profesional en todas las etapas. Las cuales conllevan desde el diseño, el planeamiento, el desarrollo, la documentacióny hasta el despliegue de dicha aplicación.
+El objetivo era poder desarrollarlo con **Angular**, mi framework favorito, y poder reforzar mi experiencia profesional en todas las etapas. Las cuales conllevan desde el diseño, el planeamiento, el desarrollo, la documentación y hasta el despliegue de dicha aplicación.
+
+***MAPA DEL SITIO**
+
+ ![Imagen del sitio](https://github.com/cartaza-dev/portfolio/blob/main/src/assets/mapa_del_sitio.png)
+ 
 
 
 *¿Con que tecnologias esta desarrollado?*
@@ -26,3 +33,4 @@ El objetivo era poder desarrollarlo con **Angular**, mi framework favorito, y po
 - JAVASCRIPT
 - TYPESCRIPT
 - ANGULAR
+
