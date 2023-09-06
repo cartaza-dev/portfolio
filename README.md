@@ -17,7 +17,11 @@ Desarrollado por **Carla Artaza**.
 - TYPESCRIPT
 - ANGULAR
 
+**MAPA DEL SITIO**
 
+ ![Imagen del sitio](https://github.com/cartaza-dev/portfolio/blob/main/src/assets/mapa_del_sitio.png)
+
+ 
 *¿Cual es su propósito? ¿A quien está dirigido?*
 
 El propósito principal es informar sobre mi persona, poder **establecer una comunicación con los posibles clientes, empleadores y gente interesada en los servicios y/o conocimientos ofrecidos, mediante los medios de contacto informados.**
@@ -29,9 +33,5 @@ También poder mostrar un desarrollo puro y exclusivo de mi persona y de mi trab
 
 El objetivo era poder desarrollarlo con **Angular**, mi framework favorito, y poder reforzar mi experiencia profesional en todas las etapas. Las cuales conllevan desde el diseño, el planeamiento, el desarrollo, la documentación y hasta el despliegue de dicha aplicación.
 
-**MAPA DEL SITIO**
-
- ![Imagen del sitio](https://github.com/cartaza-dev/portfolio/blob/main/src/assets/mapa_del_sitio.png)
- 
 
 
