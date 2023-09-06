@@ -1,12 +1,10 @@
 # Proyecto “Portafolio web”.
 
-***
-
-Desarrollado por **Carla Artaza**. [Link al sitio web](https://cartaza-dev.github.io/portfolio/)
+Desarrollado por **Carla Artaza**. ![Link al sitio web](https://cartaza-dev.github.io/portfolio/)
 
 *¿Que es?* Es un ***sitio web SPA*** que funciona como portafolio personal.
 
-  ![Imagen del sitio](/assets/imagen_portafolio.png)
+  ![Imagen del sitio](https://github.com/cartaza-dev/portfolio/blob/main/src/assets/imagen_portafolio.png)
 
 
 *¿Cual es su propósito? ¿A quien está dirigido?*
