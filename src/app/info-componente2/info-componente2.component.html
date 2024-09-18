@@ -4,29 +4,52 @@
     <h4>Informacion del proyecto <img src="../../assets/informacion.png" alt="icono informacion" width="32px"></h4>
 
 <div class="contenedor">
-    <img class="imagen_api_rest" src="../../assets/proyectoInventario.png" alt="imagen proyecto portafolio">
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../assets/login_responsive.png" alt="imagen proyecto login" class=" w-80  imagen_api_rest">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/registro_responsive.png" alt="imagen proyecto login" class="w-80 imagen_api_rest">
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/olvido_clave_responsive.png" alt="imagen proyecto login" class="w-80 imagen_api_rest">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+   <!-- <img class="imagen_api_rest" src="../../assets/login_responsive.png" alt="imagen proyecto login"> -->
+   <p class="detalle_imagen">Las imagenes proporcionadas corresponden a una interfaz de usuario simple realizada con HTML, CSS Y JAVASCRIPT, la cual se conecta a la API REST.</p>
 
     <div class="descripcion">
-
         <h5>¿Que es?</h5>
-        <p>Es una API REST.</p>
+        <p>Es una API REST desarrollada en Java, que implementa un sistema de autenticación y autorización de usuarios, incluyendo el envío de correos electrónicos para la validación de cuentas.</p>
         <h5>¿Para que sirve?</h5>
-        <p>Esta api rest sirve como sistema de gestión de Stock.</p>
+        <p>Esta API REST proporciona un sistema seguro para la gestión de usuarios, implementando procesos de autenticación y autorización mediante Spring Security. El sistema permite controlar el acceso a recursos protegidos utilizando JWT (JSON Web Tokens), garantizando que solo los usuarios autenticados puedan interactuar con la aplicación. Además, incorpora un mecanismo de verificación de identidad a través del envío automatizado de correos electrónicos, permitiendo validar las cuentas de los usuarios antes de que puedan acceder a las funcionalidades principales del sistema.</p>
         <h5>¿Que tecnologias utiliza?</h5>
-        <p> HTML 
-            <br>CSS
-            <br>TYPESCRIPT
-            <br>ANGULAR
-            <br>BOOTSTRAP
-            <br>JAVA
+        <p>
+            JAVA
             <br>SPRING BOOT
+            <br>SPRING SECURITY
             <br>JWT
             <br>JPA
             <br>MYSQL
         </p>
         <p>Si deseas ver el código fuente haz click en el siguiente botón</p>
-        <a href="https://github.com/cartaza-dev/proyecto_api_rest" class="btn"><span>Github </span><img  src="../../assets/github.png" alt=""></a>
-    </div>
+        <div class="contenedor_botones_github">
+        <a href="https://github.com/cartaza-dev//login_frontend" class="btn"><span>Frontend</span><img  src="../../assets/github.png" alt=""></a>
+        <a href="https://github.com/cartaza-dev//login_backend" class="btn"><span>Backend</span><img  src="../../assets/github.png" alt=""></a>
+      </div>
+      </div>
 
 </div>
 </div>

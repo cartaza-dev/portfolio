@@ -28,6 +28,7 @@
 /*Estilos del titulo "Informacion de proyecto"*/
 .contenedor_info_proyecto1 h4{
     padding: 10px;
+    padding-top: 20px;
 }
 
 /*Estilos del contenedor de toda la descripciòn del proyecto */
@@ -67,9 +68,8 @@
 
 /*Imagen del proyecto*/
 .contenedor .imagen_proyecto_android{
-    width: 200px;
-    margin-top: 30px;
-    margin-left: 10px;
+    width: auto;
+    height: 500px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -105,6 +105,9 @@
 @media(max-width:999px){
     .contenedor_info_proyecto1{
             margin-top: 100px ;
+    }
+    .contenedor .imagen_proyecto_android{
+        
     }
     
     

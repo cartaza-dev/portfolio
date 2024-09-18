@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 500px;
+    height: 400px;
     animation: aparece 1500ms;
     margin-top: 80px;
     margin-bottom: 30px;

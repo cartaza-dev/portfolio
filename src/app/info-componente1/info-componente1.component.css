@@ -27,6 +27,7 @@
 /*Estilos del titulo "Informacion de proyecto"*/
 .contenedor_info_proyecto1 h4{
     padding: 10px;
+    padding-top: 20px;
 }
 
 /*Estilos del contenedor de toda la descripciòn del proyecto */
