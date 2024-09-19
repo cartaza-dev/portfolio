@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 400px;
+    height: 450px;
     animation: aparece 1500ms;
     margin-top: 80px;
     margin-bottom: 30px;
@@ -24,7 +24,7 @@
 .img {
     width: 300px;
     height: auto;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 /* Estilos del contenedor del saludo "Hola soy Carla..." */

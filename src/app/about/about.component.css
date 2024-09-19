@@ -234,7 +234,7 @@
     }
 
     .skills {
-        width: 250px;
+        width: 130px;
         height: 100px;
     }
 
@@ -260,4 +260,10 @@
         display: none;
     }
 
+}
+
+@media (max-width:339px)  {
+    .skills {
+        width: 110px;
+        }
 }
