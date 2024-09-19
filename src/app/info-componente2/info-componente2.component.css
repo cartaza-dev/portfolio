@@ -1,10 +1,10 @@
 /*Estilos del contenedor principal*/
 
 .contenedor_info_proyecto1{
-    width: 70%;
+    width: 90%;
     height: auto;
     margin: 0px auto;
-    margin-top: 70px ;
+    margin-top: 30px ;
     margin-bottom: 70px;
     background-color: var(--color-primario);
     text-align: center;
@@ -72,7 +72,6 @@
 .contenedor .imagen_api_rest{
     width: 70%;
     margin-top: 30px;
-   /* margin-left: 10px;*/
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -94,10 +93,8 @@
 
 /*Estilos del boton volver*/
 .boton_volver{
-    position: absolute;
-    top: 100px;
-    left: 30px;
     width: 100px;
+    margin: 50px 30px;
     background-color: var(--color-secundario);
     border-radius: 5px;
     text-align: center;
@@ -122,14 +119,19 @@
 /*Si es pantalla chica el contenedor baja para dar lugar al boton volver*/
 @media(max-width:999px){
     .contenedor_info_proyecto1{
-            margin-top: 100px ;
+            margin-top: 20px ;
     }
-    
+    .contenedor .imagen_api_rest{
+        width: 95%;
+    }
     
 }
 
 /*Ajuste de tamaño de imagen del proyecto*/
 @media(max-width:600px){
+    .contenedor_info_proyecto1{
+        width: 95%;
+}
     .contenedor .imagen_api_rest{
         margin-top: 0px;
     }
