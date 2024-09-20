@@ -124,3 +124,13 @@
 }
    
 }
+
+
+/*Ajuste de tamaño de imagen del proyecto en pantallas muy grandes*/
+@media(min-width:1850px){
+    .contenedor .imagen_portafolio{
+        width: 95%;
+    }
+    
+   
+}
